@@ -47,11 +47,12 @@ $c-footer: #131313;
   }
 
   .grid {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 
     &__item {
       display: flex;
       justify-content: center;
+      margin-bottom: 2rem;
     }
 
     &__txt {
@@ -62,6 +63,14 @@ $c-footer: #131313;
     .grid-reverse {
       display: flex;
       flex-direction: row-reverse;
+
+      &__txt {
+        margin: 0;
+      }
+
+      &__image {
+        margin: 0 2rem;
+      }
     }
 
   }
