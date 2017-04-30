@@ -1,0 +1,21 @@
+.nav-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 65rem;
+  margin: 0 auto;
+  color: $c-white;
+
+  &__title {
+    padding: 0 1rem;
+  }
+
+  &__right {
+    margin-right: 1rem;
+  }
+}
+
+.top-container {
+  background: url('/images/binding_light.png');
+}

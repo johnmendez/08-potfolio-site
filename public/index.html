@@ -3,92 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Skillz</title>
+  <title>John's Profolio</title>
   <link rel="stylesheet" href="/app.css">
-  <!-- Review Objectives
-After completing this assignment, you should be able to effectively use:
-
-Use flex-box to create a grid with gutters
-Use flex-box to stack content
-Use flex-grow and min-width to make a responsive grid
-Organize SASS using variables
-Organize SASS using @import statements
-Create SASS code free of linting errors
-Use position: relative and position: absolute to create tool tips
-
-Grading Criteria
-
-Use of CSSGram for image filtering
-Use of SASS variables for configuration
-Logical uses of import, and extend
-Desktop Grid Layout
-Tablet Grid Layout
-Mobile Grid Layout
-Hover States for Photo Grid Page -->
 </head>
 
 <body>
   <div class="section">
-    <div class="container">
-      <banner class="top-banner">
-        <nav class="nav-banner">
-          <h2>John Mendez</h2>
-          <h2 class="nav-banner__links">
-            <a href="/index.html">Porfolio</a> <a href="/blog.html">Blog</a> <a href="/city.html">City</a>
-          </h2>
-        </nav>
+      <banner>
+        <div class="top-container">
+          <nav class="nav-banner">
+            <h2 class="black-text nav-banner__title">Welcome!</h2>
+            <div class="nav-banner__right">
+              <h2 class="nav-banner__links">
+              <!-- <a class='a-custom-top' href="/index.html">Porfolio</a>
+              <a class='a-custom-top' href="/blog.html">Blog</a>
+              <a class='a-custom-top' href="/city.html">City</a> -->
+              <a class="fa fa-linkedin-square a-custom-top" aria-hidden="true" href="#"></a>
+              <a class="fa fa-github a-custom-top" aria-hidden="true" href="#"></a>
+              </h2>
+            </div>
+          </nav>
+        </div>
       </banner>
-      <div class="bottom-banner">
-        <h1>Student at IronYard Nashville</h1>
-        <h2>I'm beginning my own career in the tech scene.</h2>
-      </div>
-      <div class="hero">
-        <h2>My Projects</h2>
-        <div class="grid">
-          <!-- Grid Item One -->
-          <div class="grid__item">
-            <div class="grid__txt">
-              <h3>Lesson Planner</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid__image">
-              <img src="http://placehold.it/350x150" alt="">
+      <main>
+        <div class="main-container">
+          <div class="left-box">
+            <div class="left-box__heading">
+              <h1>I'm dev.</h1>
             </div>
           </div>
-          <!-- Grid Item Two -->
-          <div class="grid__item grid-reverse">
-            <div class="grid__txt grid-reverse__txt">
-              <h3>Lesson Planner</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid__image grid-reverse__image">
-              <img src="http://placehold.it/350x150" alt="">
-            </div>
-          </div>
-          <!-- Grid Item Three -->
-          <div class="grid__item">
-            <div class="grid__txt">
-              <h3>Lesson Planner</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid__image">
-              <img src="http://placehold.it/350x150" alt="">
-            </div>
+          <div class="right-box">
+
           </div>
         </div>
+      </main>
+      <banner>
         <footer>
-          <nav class="footer-nav">
-            <img src="http://placehold.it/100x100" alt="" class="icon">
-            <img src="http://placehold.it/100x100" alt="" class="icon">
-            <img src="http://placehold.it/100x100" alt="" class="icon">
-            <img src="http://placehold.it/100x100" alt="" class="icon">
-            <img src="http://placehold.it/100x100" alt="" class="icon">
-          </nav>
+          <div class='footer-container'>
+            <nav class="nav-banner">
+              <h2 class="nav-banner__links">
+                <!-- <a class='a-custom-bottom' href="/index.html">Porfolio</a>
+                <a class='a-custom-bottom' href="/blog.html">Blog</a>
+                <a class='a-custom-bottom' href="/city.html">City</a> -->
+                <a class="fa fa-github a-custom-bottom" aria-hidden="true" href="#"></a>
+                <a class="fa fa-linkedin-square a-custom-bottom" aria-hidden="true" href="#"></a>
+              </h2>
+              <div class="nav-banner__right">
+                <h2 class="white-text nav-banner__title">Good Bye!</h2>
+              </div>
+            </nav>
+          </div>
         </footer>
-      </div>
+      </banner>
     </div>
   </div>
   <script src="/app.js" charset="utf-8"></script>
