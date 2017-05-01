@@ -10,6 +10,9 @@ $c-white: #e8e8e8;
 $c-bannerlightblue: #4597cb;
 $c-black: #131313;
 $c-gray: #757575;
+$c-main-brown: #241912;
+$c-main-gray: #ccc2b7;
+
 @import 'footer';
 @import 'banner';
 @import 'link';
@@ -24,10 +27,15 @@ $c-gray: #757575;
 }
 
 body {
-  background: url('/images/circles-and-roundabouts.png');
+  background-attachment: fixed;
+  background-image: url('/images/circles-and-roundabouts_sepia.png');
 }
 
 .container {
   max-width: 65rem;
+  margin: 0 auto;
+}
+
+.center {
   margin: 0 auto;
 }
