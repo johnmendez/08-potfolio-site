@@ -1,6 +1,5 @@
-.and {
-  margin: 0;
-  font-size: 9.99rem;
+.margin-auto {
+  margin: 0 auto;
 }
 
 .double-spacing {
@@ -30,6 +29,10 @@
   }
 }
 
+.header-text {
+  font-size: 3rem;
+}
+
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -45,7 +48,7 @@
   margin: 1rem;
 
   &__container {
-    background: $c-main-brown;
+    background: $c-black;
   }
 }
 
@@ -123,30 +126,6 @@
   padding: 0.5rem;
   border: $c-white 0.2rem solid;
   background-color: $c-black;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem;
-
-  &__item {
-    display: flex;
-    flex-basis: calc(100% / 2 - 1rem - 1rem);
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: 22rem;
-    margin: 1rem;
-    padding: 0.5rem;
-    border: $c-white 0.2rem solid;
-    background-color: $c-black;
-
-    ul {
-      margin: 0;
-    }
-
-  }
 }
 
 .double-list {

@@ -6,9 +6,10 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'reset';
 $c-banner: #181f2a;
-$c-white: #e8e8e8;
+$c-white: #fff;
 $c-bannerlightblue: #4597cb;
-$c-black: #131313;
+$c-darker-black: #000;
+$c-black: #2c3e50;
 $c-gray: #757575;
 $c-main-brown: #241912;
 $c-main-gray: #ccc2b7;
@@ -17,6 +18,8 @@ $c-main-gray: #ccc2b7;
 @import 'banner';
 @import 'link';
 @import 'main';
+@import 'grid';
+@import 'and-box';
 
 .black-text {
   color: $c-black;
@@ -28,7 +31,7 @@ $c-main-gray: #ccc2b7;
 
 body {
   background-attachment: fixed;
-  background-image: url('/images/circles-and-roundabouts_sepia.png');
+  background-image: url('/images/circles-and-roundabouts.png');
   font-family: 'Fjalla One', sans-serif;
 }
 

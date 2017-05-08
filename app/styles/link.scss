@@ -8,11 +8,11 @@
 }
 
 .a-custom-bottom {
-  color: $c-white;
+  color: $c-black;
   text-decoration: none;
 
   &:visited {
-    color: $c-white;
+    color: $c-black;
     text-decoration: none;
   }
 
@@ -22,7 +22,7 @@
   }
 
   &:active {
-    color: $c-white;
+    color: $c-gray;
     text-decoration: none;
   }
 }
