@@ -1,6 +1,45 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'reset';
+$c-banner: #181f2a;
+$c-white: #fff;
+$c-bannerlightblue: #4597cb;
+$c-darker-black: #000;
+$c-black: #2c3e50;
+$c-gray: #757575;
+$c-main-brown: #241912;
+$c-main-gray: #ccc2b7;
+
+@import 'footer';
+@import 'banner';
+@import 'link';
+@import 'main';
+@import 'grid';
+@import 'and-box';
+
+.black-text {
+  color: $c-black;
+}
+
+.white-text {
+  color: $c-white;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('/images/circles-and-roundabouts.png');
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+
+  &__item {
+    display: flex;
+    flex-basis: calc(100% / 2 - 1rem - 1rem);
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 22rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: $c-white 0.2rem solid;
+    background-color: $c-black;
+
+    ul {
+      margin: 0;
+    }
+
+  }
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  li {
+    margin: 1rem 2rem;
+
+    h3 {
+      margin: 0;
+    }
+  }
+}

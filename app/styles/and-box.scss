@@ -1,0 +1,15 @@
+.and {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.and-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.and-line {
+  margin: 2.8rem 0;
+  padding: 0 3rem;
+  background: $c-white;
+}

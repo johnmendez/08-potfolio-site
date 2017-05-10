@@ -1,0 +1,48 @@
+.nav-banner__links {
+  margin: 0;
+  font-size: 2.5rem;
+
+  a {
+    padding: 0 1rem;
+  }
+}
+
+.a-custom-bottom {
+  color: $c-black;
+  text-decoration: none;
+
+  &:visited {
+    color: $c-black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $c-gray;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $c-gray;
+    text-decoration: none;
+  }
+}
+
+.a-custom-top {
+  color: $c-black;
+  text-decoration: none;
+
+  &:visited {
+    color: $c-black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $c-gray;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $c-black;
+    text-decoration: none;
+  }
+}

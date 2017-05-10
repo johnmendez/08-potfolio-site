@@ -1,32 +1,146 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>08-potfolio-site</title>
+  <title>John's Profolio</title>
   <link rel="stylesheet" href="/app.css">
-<!-- Review Objectives
-After completing this assignment, you should be able to effectively use:
-
-Use flex-box to create a grid with gutters
-Use flex-box to stack content
-Use flex-grow and min-width to make a responsive grid
-Organize SASS using variables
-Organize SASS using @import statements
-Create SASS code free of linting errors
-Use position: relative and position: absolute to create tool tips
-
-Grading Criteria
-
-Use of CSSGram for image filtering
-Use of SASS variables for configuration
-Logical uses of import, and extend
-Desktop Grid Layout
-Tablet Grid Layout
-Mobile Grid Layout
-Hover States for Photo Grid Page -->
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
-<body>
 
+<body class="site">
+  <div class="section">
+      <banner>
+        <div class="top-container">
+          <nav class="nav-banner">
+            <h2 class="black-text nav-banner__title">Welcome!</h2>
+            <div class="nav-banner__right">
+              <h2 class="nav-banner__links">
+              <a class="fa fa-linkedin-square a-custom-top black-text" aria-hidden="true" href="https://www.linkedin.com/in/john-mendez-020999120/" target="_blank"></a>
+              <a class="fa fa-github a-custom-top black-text" aria-hidden="true" href="https://github.com/johnmendez" target="_blank"></a>
+              </h2>
+            </div>
+          </nav>
+        </div>
+      </banner>
+      <main class="site-content">
+        <div class="main-container">
+          <div class="left-box">
+            <div class="left-box__container">
+              <img src="/images/johnheadshot.png" alt="" class='main-img'>
+            </div>
+          </div>
+          <div class="right-box">
+            <div class="right-box__header">
+              <h2 class="center">My name is</h2>
+              <h1 class="right-box__header__center center header-text">John Mendez</h1>
+            </div>
+            <div class="and-container">
+              <div class="and-line"></div>
+            <h1 class="center and">&</h1>
+            <div class="and-line"></div>
+          </div>
+            <div class="right-box__header">
+              <h2 class="center">I am a</h2>
+              <h1 class="right-box__header__center center header-text">Web Developer</h1>
+            </div>
+          </div>
+        </div>
+        <div class="description white-text">
+          <div class="description__text">
+            <p>
+
+              To give a background of who I am, motivation is what inspires me. What interested me in beginning a career with web development is the ability to solve challenging problems with the vast amount of resources. The values I bring as a developer are my motivation to find a solution. Working in a team environment allows me to create a better end product by my focus on the solutions at hand. Creating user stories and understanding the span of time needed for development projects is what I hope to learn next while furthering my current skills.
+
+            </p>
+          </div>
+        </div>
+        <div class="title">
+        <h1 class="title__header">My experience</h1>
+      </div>
+      <div class="container">
+
+      <div class="grid">
+        <div class="main-item">
+          <div class="grid">
+              <p class="white-text double-spacing description__text">
+                The Iron Yard is where I learned my front-end development skills in a 3 month intensive course where student spent 40 hours a weekend learning and completing developer assignments.
+              </p>
+              <img src="/images/iron-yard-logo.svg" alt="">
+            </div>
+            <div class="center margin-auto">
+              <ul class="skill-list">
+                <li>
+                  <h3 class="center white-text">Skills:</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">HTML</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">CSS</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">SCSS</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">JavaScript</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">Vue.js</h3>
+                </li>
+                <li>
+                  <h3 class="center white-text">Ember.js</h3>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="grid__item">
+          <a href="http://john_mendez_t-shirts.surge.sh/"><img class='block' src="/images/07-t-shirt.png" alt="" target="_blank"></a>
+          <p class="white-text center">This project taught use of media queries is Css.</p>
+        </div>
+        <div class="grid__item">
+          <a href="http://johnmendez-06-surf-and-paddle.surge.sh/"><img class='block' src="/images/06-surf-&-paddle.png" alt="" target="_blank"></a>
+          <p class="white-text center">And this project taught use of creating a full page layout of Html and Css. While Using Scss as a preprocessor for Css</p>
+        </div>
+        <div class="grid__item">
+          <a href="http://johnmendez-13-netflix-result.surge.sh/"><img class='block' src="/images/13-netflix-result.png" alt="" target="_blank"></a>
+          <p class="white-text center">With this project, you can search netfile's Api to display a show's rating, summary, and actors.</p>
+        </div>
+        <div class="grid__item">
+          <a href="http://johnmendez-21-razer-cars.surge.sh/"><img class='block' src="/images/21-razer-cars.png" alt="" target="_blank"></a>
+          <p class="white-text center">The ember framework and bootstrap were used to create a form to store car manufacturers and models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+    <h1 class="title__header">Contact Info</h1>
+      </div>
+      <div class="description white-text">
+        <div class="description__text">
+          <h2 class="center">Phone #</h2>
+          <h1 class="center">615-525-8741</h1>
+          <h2 class="center">Email</h2>
+          <h1 class="center email">John.A.Mendez2012@gmail.com</h1>
+        </div>
+      </div>
+      </main>
+      <banner>
+        <footer>
+          <div class='footer-container'>
+            <nav class="nav-banner padding-1rem">
+              <h2 class="nav-banner__links">
+                <a class="fa fa-github a-custom-bottom" aria-hidden="true" href="https://github.com/johnmendez" target="_blank"></a>
+                <a class="fa fa-linkedin-square a-custom-bottom" aria-hidden="true" href="https://www.linkedin.com/in/john-mendez-020999120/" target="_blank"></a>
+              </h2>
+              <div class="nav-banner__right">
+                <h2 class="black-text nav-banner__title ">I'm mobile friendly!</h2>
+              </div>
+            </nav>
+          </div>
+        </footer>
+      </banner>
+  </div>
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>
